@@ -1,6 +1,6 @@
-
-
-
+#In this task, you have to build a ladder of numbers. The program accepts a positive integer n (n<=15) - 
+#the number of levels, your task 
+#is to print n levels, each of which contains numbers from 1 to the level value.
 
 n = int(input())
 
@@ -8,5 +8,7 @@ for i in range(1,n+1):
     for j in range(1, i+1):
         print(j, end=" ")
     print()
+
+
     
 
